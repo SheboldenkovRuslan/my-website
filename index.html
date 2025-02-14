@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        /* Общие настройки */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000; /* Цвет текста */
+            line-height: 1.6;
+
+            /* Добавляем GIF как фон */
+            background-image: url('gg.gif'); /* Укажите путь к вашей GIF */
+            background-size: cover; /* Масштабирует изображение, чтобы оно покрывало весь экран */
+            background-repeat: no-repeat; /* Отключает повторение фона */
+            background-position: center; /* Центрирует изображение */
+        }
+
+        /* Стили для заголовка */
+        #main-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 20px;
+            color: #ffffff; /* Измените цвет текста, чтобы он был виден на фоне GIF */
+        }
+
+        /* Стили для основного текста */
+        #main-text {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 20px;
+            color: #ffffff; /* Измените цвет текста, чтобы он был виден на фоне GIF */
+        }
+
+        /* Стили для гифки */
+        .gif-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        #gif-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Добавляет закругленные углы */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавляет тень */
+        }
+
+        /* Стили для подвала */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный фон для подвала */
+            color: #000000;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Заголовок -->
+    <h1 id="main-title">C 14 ФЕВРАЛЯ МАРТЫШКА!</h1>
+
+    <!-- Текст -->
+    <p id="main-text">Я тебя очень сильно люблю!!!.</p>
+
+    <!-- Гифка -->
+    <div class="gif-container">
+        <img id="gif-image" src="martishki.gif" alt="GIF изображение">
+    </div>
+
+    <!-- Подвал -->
+    <footer>
+        <p>© 2025 Мой сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
